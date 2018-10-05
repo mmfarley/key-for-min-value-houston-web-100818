@@ -10,5 +10,6 @@ def key_for_min_value(name_hash)
       new = {key => value}
     end
     end
- new.flatt   
+ arr = new.flatten
+ arr[0]
 end
